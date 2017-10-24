@@ -30,7 +30,7 @@ class ViewController: UIViewController {
         viewModel.subscribeObservers()
         
         self.view.addSubview(localView)
-        //下面实现的是相互关联数据的相互绑定
+        //下面实现的是关联数据的相互绑定(绑定的是Observable)
         //注* Map ：通过Map方法将序列中的数据类型转换成我们需要的数据类型，Map等函数的用法详见Swift高阶函数
         //r
         localView.r_slider.rx.value.changed
