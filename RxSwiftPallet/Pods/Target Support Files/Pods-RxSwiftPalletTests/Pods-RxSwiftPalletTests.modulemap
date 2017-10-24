@@ -1,0 +1,6 @@
+framework module Pods_RxSwiftPalletTests {
+  umbrella header "Pods-RxSwiftPalletTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
